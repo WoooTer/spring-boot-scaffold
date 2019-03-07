@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@47.98.118.73:52115:hisdb
+    username: his_dev
+    password: auxyy123
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+  rabbitmq:
+    host: localhost
+    port: 5678
+    username: original
+    password: original
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  check-config-location: true
