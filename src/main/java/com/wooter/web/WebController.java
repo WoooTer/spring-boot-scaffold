@@ -16,7 +16,7 @@ public class WebController {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "hello world";
+        return "Hello World";
     }
 
     @RequestMapping("/mybatis-test")

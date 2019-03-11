@@ -1,4 +1,7 @@
 spring:
+  mvc:
+    static-path-pattern: /static/**
+
   datasource:
     url: jdbc:oracle:thin:@47.98.118.73:52115:hisdb
     username: his_dev
